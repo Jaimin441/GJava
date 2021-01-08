@@ -1,0 +1,9 @@
+21	is NOT Pallindrome
+123	is NOT Pallindrome
+12358	is NOT Pallindrome
+131	is Pallindrome
+12252	is NOT Pallindrome
+1221	is Pallindrome
+35	is NOT Pallindrome
+353	is Pallindrome
+56865	is Pallindrome

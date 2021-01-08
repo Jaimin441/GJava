@@ -1,0 +1,39 @@
+class Dates{
+
+	private String[] Dates = new String[11];
+	private String[] month = {"January", "February", "March", "April", "June", "July", "August", "September",
+							  "October", "November", "December"};
+
+	public Scanner inp = new Scanner(System.in);
+
+	public void getDates(){
+		System.out.println("\nEnter the Dates in 'DD/MM/YY' Format:");
+		for(int i = 0; i< 10; i++) Dates[i] = inp.nextLine();
+	}
+	
+	public String formatDate(String val){
+		//Input date will of DD / MM / YY. We will omit '/' sign
+		char d = val.charAt(0)+val.charAt(1);
+		System.out.println("Date = "+d);
+		int date = Integer.parseInt(d);
+		
+		char m = val.charAt(3)+val.charAt(4);
+		int mnth = Integer.parseInt(m);
+		System.out.println("Month = "+m);
+
+		int y = val.charAt(6) + val.charAt(7);
+		int year = Integer.parseInt(y);
+		System.out.println("Year = "+y);
+
+		String final_date = Integer.toString(date)+"th "+Integer.toString(month[mnth])+" 20"+Integer.toString(year); 
+		return final_date;
+
+	}
+	public void printDate(){
+		System.out.println("\nPrinting Date:");
+
+		for(String date:Dates){
+			System.out.println(date+" <-> "+formatDate(date));
+		}
+	}
+}	

@@ -1,0 +1,12 @@
+[4:17 PM] Dr. Vatsal Shah
+    
+
+1.Q-1 A. Create a class College having instance variables Student_name, Department, Age, CPI. Generate a custom exception if Student of Information Technology Department having CPI is between 4.5 to 6.5 and if the student is 21 years old. [5] 
+OR 
+Q-1 A. Create DoublyLL class with member functions append( ), insert( ), delete( ) and display( ) to implement circular doubly linked list. [5] 
+
+Q-1 B. Create an interface having method calculate. Create class Palindrome and class Unknown which will implement method calculate to perform following task. 
+1) In palindrome check given number is palindrome or not. 
+2) In Unknown check for given number if the sum of its positive divisors other than the number itself is equal to that number or not. [5] 
+
+Q-1 C. Create a class FlipCart with the Product_name and Product_price as data members. Calculate and print the Name, Price and Cashback, where Cashback is Rs.100 per 1000 if the price of the product is at least Rs. 5000 or more and Rs.50 per 1000 otherwise. Use appropriate member function.
